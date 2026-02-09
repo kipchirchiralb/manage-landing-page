@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Orange 400: hsl(12, 88%, 59%)
+- Orange 400: #f25f3a
 - Blue 950: hsl(228, 39%, 23%)
 
 ### Neutral

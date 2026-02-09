@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* create variables for the page styling */
+:root {
+  --main-color: #f25f3a;
+  --blue: hsl(228, 39%, 23%);
+  --dark-blue: hsl(233, 12%, 13%);
+  --orange-50: hsl(13, 100%, 96%);
+  --gray-50: hsl(0, 0%, 98%);
+  --common-padding: 30px 80px;
+}
+body {
+  background-color: var(--orange-50);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--common-padding);
+}
+header a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+.cta-link {
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+section {
+  padding: var(--common-padding);
+}
+
+#intro {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.text-side {
+  flex: 1;
+}
+.image-side {
+  flex: 1;
+}
+.image-side img {
+  width: 100%;
+}
+h1 {
+  color: var(--dark-blue);
+  font-size: 40px;
+}
