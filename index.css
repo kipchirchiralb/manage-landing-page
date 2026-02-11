@@ -211,7 +211,15 @@ footer form button[type="submit"] {
   #testimonials .cards li {
     min-width: 320px;
   }
-  footer{
+  #call-to-action {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .features-list {
+    padding: 0px;
+  }
+  footer {
     flex-direction: column;
   }
 }
